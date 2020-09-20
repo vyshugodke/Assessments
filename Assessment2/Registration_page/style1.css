@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+h1 {
+    font-family: cursive;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+table {
+    font-family: verdana;
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    background-color: rgb(223, 232, 236);
+    width: 100%;
+}
+
+.button_submit {
+    text-align: center;
+    padding: 3px;
+    width: 20%;
+}
+
+table.inner {
+    border: 10px
+}
+
+td {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 0;
+    font-size: 18px;
+}
+
+p {
+    padding-left: 8px;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+input {
+    width: 80%;
+    height: 20px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+
+}
+@media screen and (max-width: 1313px) {
+    input {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 707px) {
+    input {
+        width: 60%;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 479px) {
+    input {
+        width: 40%;
+    }
+    
+    p {
+        font-size: 10px;
+        padding: 0;
+    }
+    
+    td {
+        width: 50%;
+        padding-top: 5px;
+        padding-bottom: 0;
+        font-size: 9px;
+    }
+    
+    input {
+        height: 11px;
+        padding: 1px;
+        font-size: 7px;
+    }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <script src="https://kit.fontawesome.com/c24efe5fc0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+    <h1> Registration Form</h1>
+    <div class="container">
+        <form action="/" onsubmit="alert1()">
+            <table align="center" cellpadding="10">
+                <tr>
+                    <td>
+                        <p> Full Name </p>
+                    </td>
+                    <td>
+                        <label for="FirstName"><i class="fas fa-user"></i></label>
+                        <input type="text" name="FirstName" placeholder="Full Name" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Address Line 1</p>
+                    </td>
+                    <td>
+                        <label for="address"><i class="far fa-address-book"></i></label>
+                        <input type="text" name="address" placeholder="Address Line 1" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Address Line 2</p>
+                    </td>
+                    <td>
+                        <label for="address1"><i class="far fa-address-book"></i></label>
+                        <input type="text" name="address1" placeholder="Address Line 2" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>City</p>
+                    </td>
+                    <td>
+                        <label for="city"><i class="far fa-building"></i></label>
+                        <input type="text" name="city" placeholder="City" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>State/Province/Region</p>
+                    </td>
+                    <td>
+                        <label for="state"><i class="fas fa-map-marker-alt"></i></label>
+                        <input type="text" name="state" placeholder="State/Province/Region" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Postal Code/Zip</p>
+                    </td>
+                    <td>
+                        <label for="Postal"><i class="far fa-envelope-open"></i></label>
+                        <input type="number" name="Postal" placeholder="Postal Code/Zip" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Country</p>
+                    </td>
+                    <td>
+                        <label for="country"><i class="far fa-map"></i></label>
+                        <input type="text" name="country" placeholder="Country" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Email</p>
+                    </td>
+                    <td>
+                        <label for="email"><i class="fas fa-user"></i></label>
+                        <input type="email" name="email" placeholder="Email" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Phone Number</p>
+                    </td>
+                    <td>
+                        <label for="phone"><i class="fas fa-user"></i></label>
+                        <input type="number" name="phone" placeholder="Phone Number" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button_submit">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+        function alert1() {
+            alert("Thanks");
+        }
+    </script>
+</body>
+
+</html>
